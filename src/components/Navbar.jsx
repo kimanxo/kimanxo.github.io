@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import logo from "./../assets/react.svg";
+import logo from "./../assets/logo.svg";
 import close from "./../assets/close.svg";
 import menu from "./../assets/menu.svg";
-import dark from "./../assets/dark.svg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(window.innerWidth >= 768);
@@ -10,7 +9,7 @@ function Navbar() {
 return (
   <nav className="p-4  flex flex-col md:flex-row md:items-center  md:justify-between ">
     <div className="flex items-center justify-between">
-      <img src={logo} alt="logo" className="cursor-pointer" />
+      <img src={logo} alt="logo" className="cursor-pointer w-10 h-10" />
       <img
         src={isOpen ? close : menu}
         alt={isOpen ? "close" : "menu"}
