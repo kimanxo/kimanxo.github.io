@@ -7,22 +7,15 @@ const About = () => {
 
   return (
     <section className="p-4 w-full flex flex-col items-center gap-16 lg:flex-row overflow-auto lg:justify-between lg:items-start my-12">
-      {/* 👇 relative container ensures both images stack perfectly */}
-      <article className="w-4/5 lg:w-1/2 relative flex justify-center">
+      <article className="w-4/5 lg:w-1/2 relative">
         {/* Low-res blurred image */}
         <img
           src={sunshineLow}
           alt="sunshine low quality"
-          className={`w-[30rem] outline-20 border-10 border-transparent outline-gray-200 dark:outline-gray-700 object-cover  transition-opacity duration-500 ${
+          className={`absolute top-0 left-0 w-[30rem] mx-auto outline-20 border-12 border-transparent outline-gray-200 dark:outline-gray-700 object-cover transition-opacity duration-500 ${
             highResLoaded ? "opacity-0" : "opacity-100"
           } blur-sm`}
-          style={{
-            position: "absolute",
-            top: 0,
-            left: "50%",
-            transform: "translateX(-50%)",
-            zIndex: 1,
-          }}
+          style={{ zIndex: 1 }}
         />
         {/* High-res image */}
         <img
@@ -30,16 +23,10 @@ const About = () => {
           alt="ismail"
           loading="lazy"
           onLoad={() => setHighResLoaded(true)}
-          className={`w-[30rem] outline-20 border-10 border-transparent outline-gray-200 dark:outline-gray-700 object-cover  transition-opacity duration-500 ${
+          className={`w-[30rem] mx-auto outline-20 border-12 border-transparent outline-gray-200 dark:outline-gray-700 object-cover transition-opacity duration-500 ${
             highResLoaded ? "opacity-100" : "opacity-0"
           }`}
-          style={{
-            position: "absolute",
-            top: 0,
-            left: "50%",
-            transform: "translateX(-50%)",
-            zIndex: 2,
-          }}
+          style={{ zIndex: 2, position: "relative" }}
         />
       </article>
 
