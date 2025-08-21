@@ -23,7 +23,8 @@ const Project = ({ img, name, description, techs, link }) => {
             </span>
           ))}
         </div>
-        <a href={link} target="_blank">
+        <a className="flex justify-center items-center gap-4" href={link} target="_blank">
+          Visit:
           <img src={open} alt="link" className="cursor-pointer" />
         </a>
       </article>
