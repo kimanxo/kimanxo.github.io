@@ -44,7 +44,7 @@ const Work = () => {
         name="Bloggy"
         description="A fully featured interactive Blog made with love  using Django & HTMX."
         techs={["Django", "HTMX", "CSS", "JavaScript", "PostgreSQL"]}
-        link="https://bloggy.kimanxo.org"
+        link="http://bloggy.work.gd"
       />
     </section>
   );
