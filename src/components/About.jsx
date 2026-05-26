@@ -35,25 +35,21 @@ const About = () => {
           Curious about me? Here you have it:
         </h1>
         <p className="xl:text-lg md:leading-7 xl:leading-8">
-          I'm a self-taught full stack developer who loves turning ideas into
-          fast, secure, and scalable web apps. With Django, React, and DevOps, I
-          build with purpose—clean code, solid architecture, and a drive to make
-          every project better than the last.
+          I'm a self-taught full stack developer with +4 years of experience who
+          loves turning ideas into fast, secure, and scalable web apps.I build
+          with purpose—clean code, solid architecture, and a drive to make every
+          project better than the last.
         </p>
         <p className="xl:text-lg md:leading-7 xl:leading-8">
-          I began my journey as a self-taught developer five years ago, driven
-          by curiosity and a deep interest in how things work under the hood.
-          Since then, I've grown through constant learning and hands-on
-          building. Today, I'm crafting modern, secure, and scalable web apps
-          using technologies like Django, React, Docker, and CI/CD
-          pipelines—always exploring, always improving.
+          I began my journey 4 years ago, driven by curiosity and a deep
+          interest in how things work under the hood. Since then, I've grown
+          through constant learning and hands-on building. Today, I'm crafting
+          modern, secure, and scalable web apps using modern technologies.
         </p>
         <p className="xl:text-lg md:leading-7 xl:leading-8">
-          When I’m not building or refining web apps, I’m in the world of
+          When I’m not building or securing web apps, I’m in the world of
           radiology—combining tech thinking with healthcare practice. Balancing
-          both fields keeps me curious, sharp, and always learning. You can find
-          me sharing insights on GitHub or dropping thoughts on tech and life
-          over on LinkedIn.
+          both fields keeps me curious, sharp, and always learning.
         </p>
         <p className="xl:text-lg md:leading-7 xl:leading-8">
           Finally, some quick bits about me.

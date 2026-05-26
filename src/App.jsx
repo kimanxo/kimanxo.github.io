@@ -8,6 +8,7 @@ import SectionDiv from "./components/SectionDiv";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Work from "./components/Work";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
         description="Some of the noteworthy projects I have built:"
       />
       <Work />
+      <SectionDiv
+        title="Experience"
+        id="experience"
+        description="A summary of my design roles, companies, and project impact:"
+      />
+      <Experience />
       <SectionDiv
         title="Testimonials"
         id="testimonials"

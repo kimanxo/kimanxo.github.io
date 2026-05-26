@@ -36,11 +36,12 @@ const Hero = () => {
           <h1 className="font-semibold text-2xl lg:font-extrabold lg:text-3xl xl:text-4xl text-[#030712] dark:text-[#F9FAFB]">
             Hi, I'm Ismail 👋
           </h1>
-          <p className="xl:text-lg md:leading-7  xl:leading-8 ">
-            I'm a self-taught full stack web artisan with 5 years of experience,
-            and on the side, a cybersecurity enthusiast and DevOps learner. I'm
-            determined to make security, scalability, usability, and simplicity
-            sit together at the same round table in every web app I create.
+          <p className="xl:text-lg md:leading-7  xl:leading-8  text-justify">
+            Hi, this is Ismail, a self-taught full-stack web artisan with +4
+            years of experience, and on the side, an App Security and DevOps
+            engineer. I'm determined to make security, scalability, usability,
+            and simplicity sit together at the same round table in every web app
+            I create.
           </p>
         </div>
         <div className="flex flex-col gap-2">

@@ -34,6 +34,9 @@ return (
         <a href="#work">Work</a>
       </li>
       <li className=" hover:scale-110">
+        <a href="#experience">Experience</a>
+      </li>
+      <li className=" hover:scale-110">
         <a href="#testimonials">Testimonials</a>
       </li>
       <li className="border-b-[1px] md:border-0 pb-4 md:pb-0 border-gray-100  hover:scale-110">

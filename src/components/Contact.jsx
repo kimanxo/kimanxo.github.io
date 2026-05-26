@@ -7,10 +7,30 @@ import link from "./../assets/link.svg"
 const Contact = () => {
 
 const handleCopy = (what) => {
-    const what2write = document.getElementById(what).textContent;
-    navigator.clipboard.writeText(what2write);
-    alert(`${what} copied to clipboard!`);
+  const rawText = document.getElementById(what).textContent.trim();
 
+  const numberMap = {
+    zero: "0",
+    one: "1",
+    two: "2",
+    three: "3",
+    four: "4",
+    five: "5",
+    six: "6",
+    seven: "7",
+    eight: "8",
+    nine: "9",
+  };
+
+  const formattedText = rawText
+    .replace(
+      /zero|one|two|three|four|five|six|seven|eight|nine/gi,
+      (match) => numberMap[match.toLowerCase()],
+    )
+    .replace(/[^0-9+]/g, ""); // keeps only digits and +
+
+  navigator.clipboard.writeText(formattedText);
+  alert(`${what} copied to clipboard!`);
 };
 
 return (

@@ -2,7 +2,7 @@ import React from "react";
 import Testimonial from "./Testimonial";
 import amine from "../assets/amine.png";
 import hanaa from "../assets/hanaa.png";
-
+import person from "../assets/person-svgrepo-com.svg";
 const Testimonials = () => {
   return (
     <section className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3 gap-6 p-6">
@@ -21,18 +21,13 @@ const Testimonials = () => {
       />
 
       <Testimonial
-        img={amine}
-        name="Amine Djoudi"
-        role="Lead Designer"
-        testimonial="“Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.”"
+        img={person}
+        name="Ch.Tarek"
+        role="Mystidia CEO"
+        testimonial="“I’m impressed with Ismail’s technical skills and his ability to deliver high-quality work on time, one thing to know is that he’s always willing to go the extra mile.”"
       />
 
-      <Testimonial
-        img={amine}
-        name="Amine Djoudi"
-        role="Lead Designer"
-        testimonial="“Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.”"
-      />
+     
     </section>
   );
 };
