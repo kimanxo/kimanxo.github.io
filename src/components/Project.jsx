@@ -13,14 +13,14 @@ const Project = ({ img, name, description, techs, link }) => {
       <article className="flex flex-col items-start gap-4 mt-4">
         <h1 className="font-semibold text-xl">{name}</h1>
         <p className="">{description}</p>
-        <div className="flex flex-wrap gap-2 text-sm ">
+        <div className="flex flex-wrap gap-2 text-sm  ">
           {techs.map((tech, idx) => (
-            <span
+            <img
+            className="w-6 h-6"
               key={idx}
-              className="dark:bg-gray-600 dark:text-white py-2 px-3 rounded-full bg-gray-200"
-            >
-              {tech}
-            </span>
+              src={tech}
+              alt={tech}
+            />
           ))}
         </div>
         <a className="flex justify-center items-center gap-4" href={link} target="_blank">

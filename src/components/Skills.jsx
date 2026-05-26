@@ -3,7 +3,7 @@ import Skill from "./Skill";
 import python from "./../assets/python-svgrepo-com.svg";
 import javascript from "./../assets/js-svgrepo-com.svg";
 import react from "./../assets/react-svgrepo-com.svg";
-import fastapi from "./../assets/fastapi-svgrepo-com.svg";
+import fastapi from "./../assets/fastapi.svg";
 import django from "./../assets/django-svgrepo-com.svg";
 import docker from "./../assets/docker-icon-svgrepo-com.svg";
 import insomnia from "./../assets/insomnia-svgrepo-com.svg";
@@ -16,7 +16,7 @@ import redis from "./../assets/redis-svgrepo-com.svg";
 import tailwind from "./../assets/tailwind-svgrepo-com.svg";
 import vscode from "./../assets/vscode-svgrepo-com.svg";
 import bash from "./../assets/bash-icon-svgrepo-com.svg";
-
+import scrapy from "./../assets/scrapy.svg";
 
 const Skills = () => {
 return (
@@ -31,6 +31,7 @@ return (
     <Skill img={redis} alt="Redis" />
     <Skill img={python} alt="Python" />
     <Skill img={bash} alt="Bash" />
+    <Skill img={scrapy} alt="Scrapy" />
     <Skill img={linux} alt="Linux" />
     <Skill img={nginx} alt="Nginx" />
     <Skill img={docker} alt="Docker" />

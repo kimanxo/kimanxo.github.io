@@ -42,7 +42,7 @@ function App() {
       />
       <Testimonials />
       <SectionDiv
-        title="Get in touch"
+        title="Contact"
         id="contact"
         description="Feel free to reach out for any development projects or collaborations."
       />

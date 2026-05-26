@@ -8,7 +8,7 @@ const Hero = () => {
     const [highResLoaded, setHighResLoaded] = useState(false);
 
   return (
-    <section className="p-4 w-full flex flex-col items-center gap-16 lg:flex-row-reverse    lg:justify-between   lg:items-center my-20 mb-42">
+    <section className="p-4 w-full flex flex-col items-center gap-16 lg:flex-row-reverse    lg:justify-between   lg:items-center my-20 ">
       <div className="relative w-4/5 h-full md:w-[25rem] md:h-[25rem] ">
         {/* Low-res blurred image */}
         <img
@@ -36,7 +36,7 @@ const Hero = () => {
           <h1 className="font-semibold text-2xl lg:font-extrabold lg:text-3xl xl:text-4xl text-[#030712] dark:text-[#F9FAFB]">
             Hi, I'm Ismail 👋
           </h1>
-          <p className="xl:text-lg md:leading-7  xl:leading-8  text-justify">
+          <p className="xl:text-lg md:leading-7  xl:leading-8  ">
             Hi, this is Ismail, a self-taught full-stack web artisan with +4
             years of experience, and on the side, an App Security and DevOps
             engineer. I'm determined to make security, scalability, usability,

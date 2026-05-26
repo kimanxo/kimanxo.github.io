@@ -55,9 +55,9 @@ const About = () => {
           Finally, some quick bits about me.
         </p>
         <ul className="lg:grid lg:grid-cols-2 lg:gap-4 space-y-2 xl:text-lg md:leading-7 xl:leading-8 list-disc list-inside">
-          <li>Full Stack Web Developer.</li>
-          <li>Cyber Security Enthausiast.</li>
-          <li>Scripting & Automation agent.</li>
+          <li>Full Stack Web Artisan.</li>
+          <li>App Sec Engineer.</li>
+          <li>DevOps & Automation Agent.</li>
           <li>Radiology Technologist.</li>
         </ul>
       </article>
